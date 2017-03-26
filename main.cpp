@@ -53,12 +53,7 @@ int main() {
   case 9: // ISaghatchi
     break;
   case 10:
-    void lightsec_to_gigameters() {
-      int num;
-      cout << "How many light seconds?\n";
-      cin >> num;
-      cout << "There are " << num * .299792458 << " gigameters in " << num
-           << " lightseconds.\n";
+    void lightsec_to_gigameters();
     } // THasani
     break;
   case 11: // LPham
