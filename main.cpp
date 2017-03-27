@@ -53,7 +53,7 @@ int main() {
   case 9: // ISaghatchi
     break;
   case 10:
-    void lightsec_to_gigameters();
+    lightsec_to_gigameters();
     } // THasani
     break;
   case 11: // LPham
