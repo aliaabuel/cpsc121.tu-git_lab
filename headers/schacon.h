@@ -14,7 +14,7 @@ void count_char()
     ifstream inFile;
     int i;
     
-    inFile.open("my_text.txt")
+    inFile.open("my_text.txt");
     
     if(inFile.is_open())
     {
