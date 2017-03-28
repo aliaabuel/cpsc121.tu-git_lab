@@ -4,6 +4,8 @@
 
 #include "headers/Gsrinivasan.h"
 
+#include "headers/jsanrindo.h"
+
 #include <iostream>
 
 using namespace std;
@@ -66,6 +68,7 @@ int main()
 		case 12:  // NLui
 			break;
 		case 13:  // JSanrindo
+			colors();			
 			break;
 		case 14:  // BAmaro
 			break;
