@@ -36,7 +36,7 @@ int main()
 	\n14) \
 	\n15) \
 	\n16) \
-	\n17) \ Count number of characters in a file 
+	\n17) Count number of characters in a file \
 	\n18) Convert MegaFonzies to KiloBravos\
 	\n19) \
 	\n";
