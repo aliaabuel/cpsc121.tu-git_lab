@@ -20,10 +20,10 @@ void count_char()
     {
         while (getline(inFile, my_char)
                {
-                   cout<< my_char.length()<< endl;
                    i += my_char.length();
                }
                 inFile.close();
     }
+              cout<< my_char.length()<< endl;
     
 }
