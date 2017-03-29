@@ -9,6 +9,7 @@
 #include "headers/Gsrinivasan.h"
 #include <iostream>
 #include "headers/tlopez.h"
+#include "headers/smlnchcn.h"
 
 using namespace std;
 
@@ -35,7 +36,7 @@ int main()
 	\n14) \
 	\n15) \
 	\n16) \
-	\n17) \
+	\n17) \ Count number of characters in a file 
 	\n18) Convert MegaFonzies to KiloBravos\
 	\n19) \
 	\n";
@@ -87,6 +88,7 @@ int main()
 		case 16:  // LWalcher
 			break;
 		case 17:  // SChacon
+			count_char();
 			break;
 		case 18:  // TLopez
 			mF_to_kB();
