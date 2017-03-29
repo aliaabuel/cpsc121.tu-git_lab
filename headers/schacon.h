@@ -6,8 +6,6 @@
 
 using namespace std;
 
-void count_char();
-
 void count_char()
 {
     string my_string;
