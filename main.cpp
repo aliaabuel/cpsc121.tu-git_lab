@@ -9,7 +9,7 @@
 #include "headers/nlui.h"
 #include "headers/yli.h"
 #include "headers/Gsrinivasan.h"
-
+#include "header/maminy.h"
 
 #include <iostream>
 #include "headers/tlopez.h"
@@ -98,6 +98,7 @@ int main()
 			mF_to_kB();
 			break;
 		case 19:  // MAminy
+			volume_of_cube();		
 			break;
 	}
 
