@@ -10,9 +10,9 @@ void count_char();
 
 void count_char()
 {
-    string my_char;
+    string my_string;
     ifstream inFile;
-    int i;
+    int i=0;
     
     inFile.open("my_text.txt");
     
@@ -23,8 +23,7 @@ void count_char()
                    cout<< my_char.length()<< endl;
                    i += my_char.length();
                }
+                inFile.close();
     }
-    
-               inFile.close();
     
 }
