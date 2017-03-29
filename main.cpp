@@ -1,5 +1,7 @@
 #include "headers/alee.h"
 #include "headers/bfrick.h"
+
+#include "headers/lmendoza.h"
 #include "headers/lpham.h"
 #include "headers/lschauer.h"
 #include "headers/isaghatchi.h"
@@ -7,6 +9,8 @@
 #include "headers/nlui.h"
 #include "headers/yli.h"
 #include "headers/Gsrinivasan.h"
+
+
 #include <iostream>
 #include "headers/tlopez.h"
 
@@ -16,7 +20,7 @@ int main()
 {
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
-	\n1) \
+	\n1) Convert miles into kilometers. \
 	\n2) \
 	\n3) \
 	\n4) Convert Wiffles to Inches. \
@@ -46,7 +50,7 @@ int main()
 		case 0:  // BFrick
 			examples_to_kiloxamples();
 			break;
-		case 1:  // LMendoza
+		case 1:  miles_to_kilomtrs();// LMendoza
 			break;
 		case 2:  // CNavarro
 			Area_Of_A_Circle();
