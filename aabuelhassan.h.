@@ -1,0 +1,16 @@
+//Convert a file to uppercase
+
+while (inputFile.hasNext())
+{
+  // Read the next file.
+  String myName = inputFile.nextLine();
+  
+  // Need line to make all letters uppercase
+ }
+ 
+ System.out.print("Enter the saved file name: ");
+ String myName2 = keyboard.nextLine();
+ 
+ return 0;
+ 
+ // ***PLEASE completely disregard my first submission on this.
